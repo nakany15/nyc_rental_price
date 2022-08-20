@@ -1,7 +1,7 @@
-version: '3.8'
+version: '3'
 services:
   notebook:
-    image: jupyter/datascience-notebook
+    build: .
     container_name: udacity
     ports:
       - '8888:8888'
